@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#1A1D21</color>
+    <color name="surface">#22262B</color>
+    <color name="onSurface">#E8EDF2</color>
+
+    <!-- Modern UI Palette -->
+    <color name="primary">#4285F4</color> <!-- Google Blue for Equals -->
+    <color name="onPrimary">#FFFFFF</color>
+    <color name="accentOrange">#F4B400</color> <!-- Google Yellow/Orange for Clear -->
+
+    <color name="btnNumber">#2D343E</color> <!-- Dark Grey for numbers -->
+    <color name="btnOperator">#3A4552</color> <!-- Lighter Grey for operators -->
+    <color name="btnText">#F7F9FC</color>
+
+    <!-- Old/Unused -->
+    <color name="accentGreen">#00C853</color>
+    <color name="accentBlue">#00B0FF</color>
+    <color name="accentPink">#FF4081</color>
+    <color name="accentYellow">#FFD600</color>
+    <color name="btnSecondary">#2D343E</color>
+    <color name="btnSecondaryBorder">#3A4552</color>
+    <color name="divider">#3A4552</color>
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <!-- Night overrides using the same blue palette -->
+    <color name="bg">#0A1016</color>
+    <color name="surface">#141C26</color>
+    <color name="onSurface">#E7ECF5</color>
+
+    <color name="btnText">#E7ECF5</color>
+    <color name="btnNumber">#1B2736</color>
+    <color name="btnOperator">#223247</color>
+    <color name="primary">#3D7DFF</color>
+    <color name="onPrimary">#0B1220</color>
+    <color name="accentOrange">#FF9100</color>
+    <color name="accentYellow">#FFC400</color>
+
+    <!-- keep alias for safety -->
+    <color name="btnSecondary">@color/btnOperator</color>
+</resources>

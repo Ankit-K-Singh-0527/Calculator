@@ -1,0 +1,51 @@
+<resources>
+
+    <style name="Theme.Calculator" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorSurface">@color/surface</item>
+        <item name="android:statusBarColor">@color/bg</item>
+        <item name="android:navigationBarColor">@color/bg</item>
+        <item name="android:windowBackground">@color/bg</item>
+        <!-- optional: avoid system auto-dark remapping -->
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+
+    <!-- Base: platform Button to avoid M3 tint quirks -->
+    <style name="CalcButton" parent="android:Widget.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_margin">6dp</item>
+
+        <!-- BLUE palette -->
+        <item name="android:backgroundTint">@color/btnNumber</item>
+        <item name="android:textColor">@color/btnText</item>
+
+        <!-- Text always visible & centered -->
+        <item name="android:gravity">center</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <!-- gentle autosize to prevent clipping -->
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:autoSizeMinTextSize">12sp</item>
+        <item name="android:autoSizeMaxTextSize">16sp</item>
+        <item name="android:autoSizeStepGranularity">1sp</item>
+
+        <item name="android:minHeight">44dp</item>
+        <item name="android:minWidth">44dp</item>
+    </style>
+
+    <style name="CalcButton.Operator" parent="CalcButton">
+        <item name="android:backgroundTint">@color/btnOperator</item>
+    </style>
+
+    <style name="CalcButton.Clear" parent="CalcButton">
+        <item name="android:backgroundTint">@color/accentOrange</item>
+        <item name="android:textColor">@color/bg</item>
+    </style>
+
+    <style name="CalcButton.Equals" parent="CalcButton">
+        <item name="android:backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/onPrimary</item>
+    </style>
+
+</resources>

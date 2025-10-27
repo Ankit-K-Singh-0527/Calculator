@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="degree">DEG</string>
+    <string name="radian">RAD</string>
+</resources>
