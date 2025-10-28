@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.calculator"
+    namespace = "com.ankitksingh.calculator"
     compileSdk = 36               // use 34; switch to 36 only if Android 15 SDK is installed
 
     defaultConfig {
-        applicationId = "com.example.calculator"
+        applicationId = "com.ankitksingh.calculator"
         minSdk = 24
         targetSdk = 34            // match compileSdk above
         versionCode = 1
